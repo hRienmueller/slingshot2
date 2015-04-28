@@ -171,6 +171,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &699577262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 699577263}
+  - 122: {fileID: 699577264}
+  - 114: {fileID: 699577265}
+  m_Layer: 0
+  m_Name: launchpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &699577263
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699577262}
+  m_LocalRotation: {x: 0, y: -.130526215, z: 0, w: .991444886}
+  m_LocalPosition: {x: 0, y: 3.94000006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2050207517}
+  m_RootOrder: 3
+--- !u!122 &699577264
+Halo:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699577262}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_Size: 1
+--- !u!114 &699577265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699577262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57da056148123964faa9ed3d2ff445ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &711531286
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +544,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2050207517}
   - 135: {fileID: 2050207518}
+  - 114: {fileID: 2050207519}
   m_Layer: 0
   m_Name: slingshot
   m_TagString: Untagged
@@ -513,6 +565,7 @@ Transform:
   - {fileID: 1826403332}
   - {fileID: 711531287}
   - {fileID: 1597177860}
+  - {fileID: 699577263}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!135 &2050207518
@@ -527,3 +580,14 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3
   m_Center: {x: 0, y: 4, z: 0}
+--- !u!114 &2050207519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050207516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57da056148123964faa9ed3d2ff445ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
