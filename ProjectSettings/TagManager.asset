@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - cloudanchor
+  - projectile
   layers:
   - Default
   - TransparentFX
