@@ -8,6 +8,12 @@ TagManager:
   - projectile
   - goalText
   - slingshot
+  - castle
+  - peg
+  - garlic
+  - kill
+  - wood
+  - particle
   layers:
   - Default
   - TransparentFX
