@@ -14,6 +14,13 @@ TagManager:
   - kill
   - wood
   - particle
+  - holyWater
+  - crucifix
+  - particleString
+  - particleBlood
+  - cobWeb
+  - goalSound
+  - gamesound
   layers:
   - Default
   - TransparentFX
