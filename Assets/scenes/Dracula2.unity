@@ -1073,7 +1073,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 326330880}
-  - 114: {fileID: 326330879}
   - 114: {fileID: 326330882}
   - 114: {fileID: 326330881}
   m_Layer: 0
@@ -1083,21 +1082,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &326330879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 326330878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3a5771dea6e5c0489b4ad719ddeb8c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  castles: []
-  castlePos: {x: 0, y: 0, z: 0}
-  gtLevel: {fileID: 0}
-  gtShots: {fileID: 0}
 --- !u!4 &326330880
 Transform:
   m_ObjectHideFlags: 0
@@ -4403,7 +4387,7 @@ GameObject:
   - 4: {fileID: 1328276628}
   - 82: {fileID: 1328276627}
   m_Layer: 0
-  m_Name: waehrendSpiel
+  m_Name: gameSound
   m_TagString: gamesound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

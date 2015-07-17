@@ -10,10 +10,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/Dracula1.unity
   - enabled: 1
-    path: Assets/scenes/Projectiles.unity
-  - enabled: 1
     path: Assets/scenes/Dracula2.unity
   - enabled: 1
     path: Assets/scenes/Dracula3.unity
   - enabled: 1
     path: Assets/scenes/levelSelect.unity
+  - enabled: 1
+    path: Assets/scenes/Projectile.unity
