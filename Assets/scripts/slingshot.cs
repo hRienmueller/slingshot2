@@ -5,55 +5,56 @@ using UnityEngine.UI;
 public class slingshot : MonoBehaviour {
 
 	//inspector variables
-	GameObject prefabProjectile;
-	public float velocityMult = 10.0f;
+	GameObject prefabProjectile;           //the projectile gameObject
+	public float velocityMult = 10.0f;     //this indicates with how much wumms you can shoot
 	
-	public GameObject projectile1;
+	public GameObject projectile1;         //The projectile you start with per default
 
 	//Internal state variable
-	private GameObject launchPoint;
-	private bool aimingMode;
-	GameObject Projectiletype;
+	private GameObject launchPoint;        // This is the gameobject, from which the launchPos its transform position fetches... is that correct english? i doubt it. but you know what i mean.
+                                           // it is the gameobject with the white glow on it.
+    private bool aimingMode;               // Are you in aimingmode?
+	GameObject Projectiletype;             // the type of projectile you start with. Can change in the game
 	int numberOfProjectiles = 2;
 
-	Text ShotsTaken;
-	static int shots;
+	Text ShotsTaken;                       // This is the text that shows how many times you have shooted
+	static int shots;                      // counts your shots
 
-	private GameObject projectile;
-	private Vector3 launchPos;     //launch position stored
+	private GameObject projectile;         // the projectile you instantiate
+	private Vector3 launchPos;             // launch position of the projectile stored
 
 
 
 	void Awake(){
-		Transform launchpointTrans = transform.Find("launchpoint"); //return a transform, tranform nly searches in the children
-		launchPoint = launchpointTrans.gameObject;
-		launchPoint.SetActive(false);
-		launchPos = launchpointTrans.position;
-		prefabProjectile = projectile1;
+		Transform launchpointTrans = transform.Find("launchpoint"); //return a transform, transform only searches in the children
+		launchPoint = launchpointTrans.gameObject;                  //the launchPoint is the gameobject which belongs to the launchointTrans
+		launchPoint.SetActive(false);                               //deactivate launchPoint, so you only have the transform left. Thats all you need
+		launchPos = launchpointTrans.position;                      
+		prefabProjectile = projectile1;                             //sets the default projectile type
 
-		GameObject shotText = GameObject.Find ("shots");
-		ShotsTaken= shotText.GetComponent<Text>();
-		shots = 0;
+		GameObject shotText = GameObject.Find ("shots");            //find te right text
+		ShotsTaken= shotText.GetComponent<Text>();                 
+		shots = 0;                                                  //set number of taken shots to 0
 	}
 
 
 
-	void OnMouseEnter(){
-		launchPoint.SetActive (true);
+	void OnMouseEnter(){                           //if the cursor enters the area of the launchpoint, ...
+		launchPoint.SetActive (true);              //...show the white glow
 		//print ("slingshot mouse enter");
 	
 	}
 
 
-	void OnMouseExit() {
-		if(!aimingMode){
-			launchPoint.SetActive (false);
+	void OnMouseExit() {                           //if the cursor exits the area of the launchpoint,...
+		if(!aimingMode){                           //...and (!) you are NOT in aimingmode...
+			launchPoint.SetActive (false);         //...hide the white glow
 		}
 	}
 
 
-	public void OnButtonClick(GameObject newBullet){
-		prefabProjectile = newBullet;
+	public void OnButtonClick(GameObject newBullet){   //this is for the projectile selection buttons on the left side of the screen
+		prefabProjectile = newBullet;                  //if you click on a bullet, this will be your bullet for the next shots.
 		//print (prefabProjectile.name);
 	}
 
@@ -61,7 +62,7 @@ public class slingshot : MonoBehaviour {
 		//set the game to aiming mode, when mouse is pressed.
 		aimingMode = true;
 
-		//Instantiate a projectile AT THE LAUNCHPOINT(erschaffen! WICHTIG!!)
+		//Instantiate a projectile AT THE LAUNCHPOINT
 		projectile = Instantiate (prefabProjectile) as GameObject; //typecasting, spawning of objects;
 
 		projectile.transform.position = launchPos;
@@ -72,7 +73,7 @@ public class slingshot : MonoBehaviour {
 
 	void Update() {
 
-		updateShots ();
+		updateShots (); //update the shotsText, which counts your shots
 
 		//check for aiming mode
 		if (!aimingMode) return;
@@ -94,21 +95,20 @@ public class slingshot : MonoBehaviour {
 		projectile.transform.position = launchPos + mouseDelta;
 	    
 		//fire it
-		if (Input.GetMouseButtonUp (0)) {
-			aimingMode = false;
+		if (Input.GetMouseButtonUp (0)) { // if you release te mouse button
+			aimingMode = false;           // leave the aimingmode
 			//print ("aimingmode left");
-			projectile.GetComponent<Rigidbody>().isKinematic=false;
-			projectile.GetComponent<Rigidbody>().velocity = -mouseDelta*velocityMult;
+			projectile.GetComponent<Rigidbody>().isKinematic=false;   //...shoot.
+			projectile.GetComponent<Rigidbody>().velocity = -mouseDelta*velocityMult; //...shoot.
 
-			followCam.S.poi = projectile;
-			shots = shots + 1;
+			followCam.S.poi = projectile;                // sets the poi of the camera to the current projectile
+			shots = shots + 1;                           // counts the shots you do
 		}
 
 
 	}
 
 	void updateShots(){
-		ShotsTaken.text = "Shots Taken:" + shots; 
+		ShotsTaken.text = "Shots Taken:" + shots;        // Updates the shotsTaken-text
 	}
-	// zooming the level try it! camera tab zoom, you can acces it in the script,  one line of code
 }

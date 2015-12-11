@@ -1,0 +1,113 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2102 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.245 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter1_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 181c -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.855196 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 336.
+Total: 0.548877 ms (FindLiveObjects: 0.050871 ms CreateObjectMapping: 0.044624 ms MarkObjects: 0.426607 ms  DeleteObjects: 0.025435 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.255724 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 305.
+Total: 0.987979 ms (FindLiveObjects: 0.073629 ms CreateObjectMapping: 0.066936 ms MarkObjects: 0.784047 ms  DeleteObjects: 0.059350 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.945586 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 295.
+Total: 0.745670 ms (FindLiveObjects: 0.035699 ms CreateObjectMapping: 0.159308 ms MarkObjects: 0.523887 ms  DeleteObjects: 0.025882 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.797880 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 305.
+Total: 0.909887 ms (FindLiveObjects: 0.066490 ms CreateObjectMapping: 0.066936 ms MarkObjects: 0.738976 ms  DeleteObjects: 0.037038 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.389737 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 820.
+Total: 0.933538 ms (FindLiveObjects: 0.078538 ms CreateObjectMapping: 0.078984 ms MarkObjects: 0.743439 ms  DeleteObjects: 0.030790 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.703305 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 872.
+Total: 1.426189 ms (FindLiveObjects: 0.108883 ms CreateObjectMapping: 0.121377 ms MarkObjects: 1.163798 ms  DeleteObjects: 0.029898 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at slingshot.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+slingshot:OnMouseEnter()
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32)
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.786085 ms
+
+Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 313.
+Total: 0.668024 ms (FindLiveObjects: 0.045962 ms CreateObjectMapping: 0.033468 ms MarkObjects: 0.368149 ms  DeleteObjects: 0.219551 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.047775 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.537721 ms (FindLiveObjects: 0.040161 ms CreateObjectMapping: 0.036591 ms MarkObjects: 0.434639 ms  DeleteObjects: 0.025435 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.705508 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at slingshot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 876.
+Total: 1.002705 ms (FindLiveObjects: 0.085232 ms CreateObjectMapping: 0.065597 ms MarkObjects: 0.824208 ms  DeleteObjects: 0.027220 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.319231 ms
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 317.
+Total: 0.686766 ms (FindLiveObjects: 0.037484 ms CreateObjectMapping: 0.031683 ms MarkObjects: 0.398494 ms  DeleteObjects: 0.218658 ms)
+

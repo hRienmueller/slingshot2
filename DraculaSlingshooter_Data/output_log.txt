@@ -1,0 +1,163 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2102 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Surfer\Documents\unityProject2Semester\slingshooter\slingshooter\DraculaSlingshooter_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: e30 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.429401 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 820.
+Total: 0.595284 ms (FindLiveObjects: 0.061134 ms CreateObjectMapping: 0.047747 ms MarkObjects: 0.462304 ms  DeleteObjects: 0.023650 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.173658 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at slingshot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 863.
+Total: 1.176288 ms (FindLiveObjects: 0.093264 ms CreateObjectMapping: 0.078984 ms MarkObjects: 0.969679 ms  DeleteObjects: 0.031236 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.311969 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at slingshot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 874.
+Total: 1.052233 ms (FindLiveObjects: 0.064704 ms CreateObjectMapping: 0.031683 ms MarkObjects: 0.939781 ms  DeleteObjects: 0.015172 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.899197 ms
+
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 317.
+Total: 0.659988 ms (FindLiveObjects: 0.058011 ms CreateObjectMapping: 0.033467 ms MarkObjects: 0.345835 ms  DeleteObjects: 0.221781 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.983959 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.468998 ms (FindLiveObjects: 0.036591 ms CreateObjectMapping: 0.029898 ms MarkObjects: 0.375734 ms  DeleteObjects: 0.026328 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.676945 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 311.
+Total: 0.312367 ms (FindLiveObjects: 0.023650 ms CreateObjectMapping: 0.017849 ms MarkObjects: 0.253018 ms  DeleteObjects: 0.017403 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.672929 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 822.
+Total: 0.475245 ms (FindLiveObjects: 0.044623 ms CreateObjectMapping: 0.031683 ms MarkObjects: 0.378411 ms  DeleteObjects: 0.019634 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.295011 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at slingshot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 863.
+Total: 2.627014 ms (FindLiveObjects: 0.137441 ms CreateObjectMapping: 0.086124 ms MarkObjects: 2.344544 ms  DeleteObjects: 0.055333 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.210249 ms
+
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 313.
+Total: 0.612241 ms (FindLiveObjects: 0.075414 ms CreateObjectMapping: 0.038376 ms MarkObjects: 0.353868 ms  DeleteObjects: 0.141904 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.090610 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.438207 ms (FindLiveObjects: 0.034360 ms CreateObjectMapping: 0.026328 ms MarkObjects: 0.354314 ms  DeleteObjects: 0.022311 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.808586 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 822.
+Total: 0.607332 ms (FindLiveObjects: 0.049086 ms CreateObjectMapping: 0.043285 ms MarkObjects: 0.494880 ms  DeleteObjects: 0.018742 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.069214 ms
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 313.
+Total: 0.634999 ms (FindLiveObjects: 0.040607 ms CreateObjectMapping: 0.030790 ms MarkObjects: 0.361008 ms  DeleteObjects: 0.202146 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.042862 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.813941 ms (FindLiveObjects: 0.057564 ms CreateObjectMapping: 0.052656 ms MarkObjects: 0.664451 ms  DeleteObjects: 0.037930 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.539950 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at slingshot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 876.
+Total: 0.636338 ms (FindLiveObjects: 0.048640 ms CreateObjectMapping: 0.044177 ms MarkObjects: 0.522546 ms  DeleteObjects: 0.020527 ms)
+
+particleblood found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.784560 ms
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 317.
+Total: 0.737634 ms (FindLiveObjects: 0.093264 ms CreateObjectMapping: 0.031683 ms MarkObjects: 0.411433 ms  DeleteObjects: 0.200807 ms)
+

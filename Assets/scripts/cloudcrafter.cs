@@ -45,8 +45,8 @@ public class cloudcrafter : MonoBehaviour {
 			float scaleValue = Mathf.Lerp (cloudScaleMin, cloudScaleMax, scaleU);
 			//print ("scaled");
 
-			cPos.y = Mathf.Lerp(cloudPosMin.y, cPos.x, scaleU);  //kleine wolken tiefer
-			cPos.z = 100-90*scaleU; //entfernung von der Kamera
+			cPos.y = Mathf.Lerp(cloudPosMin.y, cPos.x, scaleU);  //little clouds nearer to the ground
+			cPos.z = 100-90*scaleU; //distance from the camera
 
 			//apply the changes to our instance
 			cloud.transform.position = cPos;
@@ -81,23 +81,3 @@ public class cloudcrafter : MonoBehaviour {
 
 	}
 }
-
-//paralax scrolling für background: Alienspiel bei Unity examples checken!! 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//homework: update function, die die wolken bewegt

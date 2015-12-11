@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class cobwebWall : MonoBehaviour {
-
+    //for comments, please take a look at the woodenWall script!
 	private GameObject cobWeb;
 	private GameObject Particle;
 	private GameObject activate;
@@ -23,6 +23,8 @@ public class cobwebWall : MonoBehaviour {
 			activate = Instantiate(Particle) as GameObject; 
 			activate.transform.position = ParticlePos;
 			other.gameObject.SetActive(false);
+
+			//Debug.Log ("Cobweb destroyed");
 		}
 	}
 }

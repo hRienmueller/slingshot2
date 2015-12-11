@@ -3,6 +3,8 @@ using System.Collections;
 
 public class menu : MonoBehaviour {
 
+
+
 	public void changeScenes (string NameOfScene) {
 		
 		Application.LoadLevel(NameOfScene);
